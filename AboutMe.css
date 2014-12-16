@@ -1,0 +1,91 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0em;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+	text-align: center;
+}
+
+.masthead {
+	padding: 6em 0;
+	background-image: url("HeaderImage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 1em #D7702F;
+}
+
+.masthead-intro {
+	margin-bottom: 0em;
+	font-family: 'Gentium Book Basic';
+	font-size: 2em;
+	color: #D7702F;
+	font-weight: bold;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	font-size: 5em;
+	font-family: 'Open Sans';
+	color: #D7702F;
+	font-weight: bolder;
+	text-shadow: .01em 0.1em 0.1em #D7702F;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+	max-width: 38em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+}
+
+h1 {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	font-size: 2em;
+	color: #D7702F;
+}
+
+p {
+	font-family: 'Gentium Book Basic';
+	font-size: 1em;
+}
+
+h2 {
+	font-family: 'Gentium Book Basic';
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.social > li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.content-footer {
+	background-color: #0E0500;
+	font-family: 'Gentium Book Basic';
+	font-weight: bolder;
+	margin-top: 5em;
+	padding: 4em 0;
+	margin: 0em;
+}
+
+.content-footer > p {
+	color: white;
+}
+
+a {
+	color: #7096C3;
+}
+
